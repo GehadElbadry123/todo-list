@@ -1,0 +1,74 @@
+body{
+  background-color: black;
+}
+.App{
+  border: 1px solid white;
+  margin: 100px 30%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 25px;
+  
+}
+
+.App h2{
+  font-size: 40px;
+  color:white
+}
+.App ul{
+    list-style: "❤️";
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(190, 186, 186);
+    margin: 30px ;
+}
+.App input{
+  width: 100%;
+  max-width:  250px;
+  height: 40px;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .App input {
+    max-width: 100px;
+  }
+}
+.btn{
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.App ul li{
+  word-wrap: break-word;
+}
+.diffstyle{
+  list-style: "☑️";
+  text-decoration: line-through;
+}
+.btn1{
+  width:80px;
+  height: 30px;
+  background-color: rgb(184, 43, 43);
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+ .div10{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+@media (min-width: 768px) {
+  .div10 {
+    flex-direction: row;
+    align-items: center;
+  }
+}
